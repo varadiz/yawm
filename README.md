@@ -10,15 +10,22 @@ so decided to roll my own.
 
 It uses `wmctrl` under the hood. You should have it installed.
 
+## Usage
+
+`cargo run`
+
+## Dependencies
+
+### wmctrl
+
 `sudo apt install wmctrl` or similar.
-
-## about wmctrl
-
-commands we use
 
 * `wmctrl -l` List windows
 * `wmctrl -R {applicationname}` Activate an application window
 
-## GUI
+### gtk4
+
+`sudo apt install libgtk-4-dev build-essential`
 
 We use GTK4 rust bindings for the GUI.
+
