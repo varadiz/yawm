@@ -18,3 +18,7 @@ commands we use
 
 * `wmctrl -l` List windows
 * `wmctrl -R {applicationname}` Activate an application window
+
+## GUI
+
+We use GTK4 rust bindings for the GUI.
