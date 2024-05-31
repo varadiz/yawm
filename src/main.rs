@@ -37,5 +37,6 @@ fn build_ui(app: &Application) {
         wmctrl::activate(text.as_str());
         input.set_text("");
     });
+
     window.present();
 }
